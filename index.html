@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hubby Catering — profesionální catering pro firemní akce, svatby, rauty a oslavy po celé Praze a okolí.">
+    <title>Hubby Catering</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ══════════════ HEADER ══════════════ -->
+<header class="site-header" id="header">
+    <div class="container header-inner">
+        <a href="#home" class="logo" aria-label="Hubby Catering — domů">
+            <img src="img/IMG_7396.PNG" alt="Hubby Catering" class="logo-img">
+        </a>
+
+        <nav class="main-nav" id="main-nav" aria-label="Hlavní navigace">
+            <ul>
+                <li><a href="#o-nas">O nás</a></li>
+                <li><a href="#sluzby">Služby</a></li>
+                <li><a href="#galerie">Galerie</a></li>
+                <li><a href="#instagram">Instagram</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+
+        <a href="#kontakt" class="btn btn-primary header-cta">Poptávka</a>
+
+        <button class="nav-toggle" id="nav-toggle" aria-label="Otevřít menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</header>
+
+
+<!-- ══════════════ HERO ══════════════ -->
+<section id="home" class="hero">
+    <div class="hero-bg"></div>
+    <div class="container hero-inner">
+
+        <!-- Logo — při scrollu zmizí a přesune se do navigace -->
+        <div class="hero-logo-wrap" id="hero-logo">
+            <img src="img/IMG_7396.PNG" alt="Hubby Catering" class="hero-logo-img">
+        </div>
+
+        <div class="hero-content reveal">
+            <p class="eyebrow">Profesionální catering</p>
+            <h1 class="hero-title">Hubby<br>Catering</h1>
+            <p class="hero-subtitle">Gastronomie, která zanechá dojem —<br>firemní akce, svatby, rauty a oslavy na míru.</p>
+            <div class="hero-actions">
+                <a href="#kontakt" class="btn btn-primary">Nezávazná poptávka</a>
+                <a href="#sluzby" class="btn btn-outline">Naše služby</a>
+            </div>
+        </div>
+
+    </div>
+    <div class="hero-scroll" aria-hidden="true">
+        <span class="scroll-line"></span>
+    </div>
+</section>
+
+
+<!-- ══════════════ STATS ══════════════ -->
+<section class="stats-bar" aria-label="Naše čísla">
+    <div class="container">
+        <div class="stats-grid">
+            <div class="stat reveal">
+                <span class="stat-number">500+</span>
+                <span class="stat-label">Úspěšných akcí</span>
+            </div>
+            <div class="stat reveal">
+                <span class="stat-number">3</span>
+                <span class="stat-label">Roky zkušeností</span>
+            </div>
+            <div class="stat reveal">
+                <span class="stat-number">98 %</span>
+                <span class="stat-label">Spokojených klientů</span>
+            </div>
+            <div class="stat reveal">
+                <span class="stat-number">5 000+</span>
+                <span class="stat-label">Obsloužených hostů</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ══════════════ O NÁS ══════════════ -->
+<section id="o-nas" class="section">
+    <div class="container">
+        <div class="about-grid">
+            <div class="about-image reveal">
+                <div class="about-slideshow" id="about-slideshow">
+                    <div class="slide active">
+                        <img src="img/WhatsApp Image 2025-12-02 at 10.50.26 (1).jpeg" alt="Elegantní svatební stůl" loading="lazy">
+                    </div>
+                    <div class="slide">
+                        <img src="img/WhatsApp Image 2025-12-02 at 10.50.28.jpeg" alt="Slavnostní večeře" loading="lazy">
+                    </div>
+                    <div class="slide">
+                        <img src="img/WhatsApp Image 2025-12-02 at 10.50.27 (3).jpeg" alt="Venkovní akce" loading="lazy">
+                    </div>
+                    <div class="slide">
+                        <img src="img/WhatsApp Image 2025-12-02 at 10.50.27 (1).jpeg" alt="Raut" loading="lazy">
+                    </div>
+                    <div class="slideshow-dots" aria-label="Přechod na snímek">
+                        <button class="dot active" data-index="0" aria-label="Snímek 1"></button>
+                        <button class="dot" data-index="1" aria-label="Snímek 2"></button>
+                        <button class="dot" data-index="2" aria-label="Snímek 3"></button>
+                        <button class="dot" data-index="3" aria-label="Snímek 4"></button>
+                    </div>
+                </div>
+                <div class="about-badge">
+                    <span class="badge-num">3</span>
+                    <span class="badge-lbl">roky<br>zkušeností</span>
+                </div>
+            </div>
+
+            <div class="about-text reveal">
+                <p class="eyebrow">O nás</p>
+                <h2>Vaše akce,<br>naše vášeň</h2>
+                <p>Jsme cateringová společnost s dlouholetou tradicí a láskou ke gastronomii. Každou akci bereme jako novou výzvu — kombinujeme čerstvé suroviny, kreativní přístup a profesionální servis.</p>
+                <p>Od intimních rodinných oslav až po velké firemní konference — jsme tu pro vás od první myšlenky až po poslední talíř.</p>
+                <ul class="about-features">
+                    <li><span class="check">✓</span> Vždy čerstvé, lokální suroviny</li>
+                    <li><span class="check">✓</span> Vlastní kuchyně a vybavení</li>
+                    <li><span class="check">✓</span> Zkušený tým profesionálů</li>
+                    <li><span class="check">✓</span> Menu zcela na míru</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ══════════════ SLUŽBY ══════════════ -->
+<section id="sluzby" class="section section-cream">
+    <div class="container">
+        <div class="section-header reveal">
+            <p class="eyebrow">Co nabízíme</p>
+            <h2>Naše služby</h2>
+            <p class="section-desc">Připravujeme gastronomické zážitky pro každý typ akce.</p>
+        </div>
+
+        <div class="services-grid">
+            <article class="service-card reveal">
+                <div class="service-icon">🍾</div>
+                <h3>Firemní catering</h3>
+                <p>Business lunche, konference, teambuildingy a firemní večírky. Profesionální servis odpovídající vašemu firemnímu image.</p>
+            </article>
+            <article class="service-card reveal">
+                <div class="service-icon">💍</div>
+                <h3>Svatby</h3>
+                <p>Kompletní svatební catering od přivítání hostů až po slavnostní dort. Váš den si zaslouží tu nejlepší gastronomii.</p>
+            </article>
+            <article class="service-card reveal">
+                <div class="service-icon">🥂</div>
+                <h3>Rauty a oslavy</h3>
+                <p>Narozeniny, výročí, promotion party — vytvoříme perfektní atmosféru pro každou oslavu.</p>
+            </article>
+            <article class="service-card reveal">
+                <div class="service-icon">☕</div>
+                <h3>Coffee breaky</h3>
+                <p>Profesionální coffee breaky a přestávkové občerstvení pro vaše konference a semináře.</p>
+            </article>
+            <article class="service-card reveal">
+                <div class="service-icon">🌿</div>
+                <h3>Speciální diety</h3>
+                <p>Vegetariánská, veganská, bezlepková nebo bezlaktózová menu — u nás se najde každý.</p>
+            </article>
+            <article class="service-card reveal">
+                <div class="service-icon">🏕️</div>
+                <h3>Venkovní akce</h3>
+                <p>Grilování, piknik, festival — postaráme se o skvělé jídlo i mimo čtyři stěny.</p>
+            </article>
+        </div>
+    </div>
+</section>
+
+
+<!-- ══════════════ JAK TO FUNGUJE ══════════════ -->
+<section class="section section-dark">
+    <div class="container">
+        <div class="section-header reveal">
+            <p class="eyebrow" style="color:var(--clr-gold-light)">Proces</p>
+            <h2 style="color:#fff">Jak to funguje?</h2>
+            <p class="section-desc" style="color:rgba(255,255,255,.6)">Jednoduché kroky k vaší dokonalé akci.</p>
+        </div>
+
+        <div class="process-steps">
+            <div class="step reveal">
+                <div class="step-num">01</div>
+                <h3>Poptávka</h3>
+                <p>Napište nebo zavolejte. Sdělíte nám datum, místo, počet hostů a typ menu.</p>
+            </div>
+            <div class="step-arrow" aria-hidden="true">→</div>
+            <div class="step reveal">
+                <div class="step-num">02</div>
+                <h3>Nabídka</h3>
+                <p>Do 48 hodin vám připravíme cenovou nabídku a návrh menu šitý na míru.</p>
+            </div>
+            <div class="step-arrow" aria-hidden="true">→</div>
+            <div class="step reveal">
+                <div class="step-num">03</div>
+                <h3>Příprava</h3>
+                <p>Domluvíme detaily, potvrdíme objednávku a začneme vše chystat pro váš den.</p>
+            </div>
+            <div class="step-arrow" aria-hidden="true">→</div>
+            <div class="step reveal">
+                <div class="step-num">04</div>
+                <h3>Realizace</h3>
+                <p>Náš tým přijede, vše nastaví a postará se o bezchybný průběh od začátku do konce.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ══════════════ GALERIE ══════════════ -->
+<section id="galerie" class="section">
+    <div class="container">
+        <div class="section-header reveal">
+            <p class="eyebrow">Galerie</p>
+            <h2>Z našich akcí</h2>
+        </div>
+
+        <div class="gallery-grid">
+            <div class="gallery-item reveal">
+                <img src="img/WhatsApp Image 2025-12-02 at 10.50.26.jpeg" alt="Croissanty s jahodami" loading="lazy">
+            </div>
+            <div class="gallery-item reveal">
+                <img src="img/WhatsApp Image 2025-12-02 at 10.50.27.jpeg" alt="Pavlovy s ovocem" loading="lazy">
+            </div>
+            <div class="gallery-item reveal">
+                <img src="img/WhatsApp Image 2025-12-02 at 10.50.27 (4).jpeg" alt="Tartaletky s jedlými květy" loading="lazy">
+            </div>
+            <div class="gallery-item reveal">
+                <img src="img/WhatsApp Image 2025-12-02 at 10.50.27 (2).jpeg" alt="Dezert z černého sezamu" loading="lazy">
+            </div>
+            <div class="gallery-item reveal">
+                <img src="img/WhatsApp Image 2025-12-02 at 10.50.26 (2).jpeg" alt="Slavnostní hlavní chod" loading="lazy">
+            </div>
+            <div class="gallery-item reveal">
+                <img src="img/WhatsApp Image 2025-12-02 at 10.50.26 (3).jpeg" alt="Předkrm z filového těsta" loading="lazy">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ══════════════ INSTAGRAM / REELS ══════════════ -->
+<section id="instagram" class="section section-cream">
+    <div class="container">
+        <div class="section-header reveal">
+            <p class="eyebrow">Instagram</p>
+            <h2>Sledujte nás</h2>
+            <p class="section-desc">Zákulisí a inspirace z našich akcí přímo z Instagramu.</p>
+        </div>
+
+        <!--
+            ═══════════════════════════════════════════
+            MOŽNOST A — Lokální MP4 soubory
+            Vložte soubory do složky /reels/:
+              reels/reel1.mp4, reels/reel2.mp4, reels/reel3.mp4
+            ═══════════════════════════════════════════
+        -->
+        <div class="reels-grid" id="reels-grid">
+            <div class="reel-card reveal">
+                <div class="phone-frame">
+                    <video src="reels/reel1.mp4" muted autoplay loop playsinline></video>
+                    <div class="reel-placeholder" aria-hidden="true">
+                        <span>📱</span><small>reels/reel1.mp4</small>
+                    </div>
+                </div>
+            </div>
+            <div class="reel-card reveal">
+                <div class="phone-frame">
+                    <video src="reels/reel2.mp4" muted autoplay loop playsinline></video>
+                    <div class="reel-placeholder" aria-hidden="true">
+                        <span>📱</span><small>reels/reel2.mp4</small>
+                    </div>
+                </div>
+            </div>
+            <div class="reel-card reveal">
+                <div class="phone-frame">
+                    <video src="reels/reel3.mp4" muted autoplay loop playsinline></video>
+                    <div class="reel-placeholder" aria-hidden="true">
+                        <span>📱</span><small>reels/reel3.mp4</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--
+            ═══════════════════════════════════════════
+            MOŽNOST B — Instagram embedy (doporučeno pro reels z IG)
+            Postup:
+              1. Na Instagramu klikněte na "…" u příspěvku
+              2. Zvolte "Vložit" (Embed)
+              3. Zkopírujte blockquote kód sem
+              4. Odkomentujte sekci níže a přidejte embed.js script
+
+            <div class="ig-embeds">
+                <blockquote class="instagram-media" data-instgrm-captioned
+                  data-instgrm-permalink="https://www.instagram.com/p/VÁŠE_ID/"
+                  data-instgrm-version="14">
+                </blockquote>
+            </div>
+            <script async src="//www.instagram.com/embed.js"></script>
+            ═══════════════════════════════════════════
+        -->
+
+        <div class="instagram-cta reveal">
+            <a href="https://www.instagram.com/hubby_catering?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" class="btn btn-instagram">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                </svg>
+                @hubby_catering
+            </a>
+        </div>
+    </div>
+</section>
+
+
+<!-- ══════════════ KONTAKT ══════════════ -->
+<section id="kontakt" class="section">
+    <div class="container">
+        <div class="contact-grid">
+            <div class="contact-info reveal">
+                <p class="eyebrow">Kontakt</p>
+                <h2>Pojďme to<br>rozjet společně</h2>
+                <p>Máte zájem o naše služby? Neváhejte nás kontaktovat — rádi vám připravíme nabídku na míru.</p>
+
+                <ul class="contact-list">
+                    <li>
+                        <span class="c-icon">📞</span>
+                        <div>
+                            <strong>Telefon</strong>
+                            <a href="tel:+420777111222">+420 777 111 222</a>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="c-icon">✉️</span>
+                        <div>
+                            <strong>E-mail</strong>
+                            <a href="mailto:info@hubbycatering.cz">info@hubbycatering.cz</a>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="c-icon">📍</span>
+                        <div>
+                            <strong>Oblast působení</strong>
+                            <span>Nýdek a okolí</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="c-icon">🕐</span>
+                        <div>
+                            <strong>Dostupnost</strong>
+                            <span>Po–Pá 8:00–18:00</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="form-wrap reveal">
+                <form id="contact-form" novalidate>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Jméno *</label>
+                            <input type="text" id="name" name="name" placeholder="Vaše jméno" required autocomplete="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail *</label>
+                            <input type="email" id="email" name="email" placeholder="vas@email.cz" required autocomplete="email">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">Telefon</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+420 000 000 000" autocomplete="tel">
+                        </div>
+                        <div class="form-group">
+                            <label for="event-type">Typ akce</label>
+                            <select id="event-type" name="event-type">
+                                <option value="">— vyberte —</option>
+                                <option value="firemni">Firemní akce</option>
+                                <option value="svatba">Svatba</option>
+                                <option value="oslava">Oslava / Raut</option>
+                                <option value="coffee">Coffee break</option>
+                                <option value="jine">Jiné</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Zpráva *</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Napište nám detaily — datum, místo, přibližný počet hostů..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Odeslat poptávku</button>
+                    <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ══════════════ FOOTER ══════════════ -->
+<footer class="site-footer">
+    <div class="container footer-inner">
+        <div class="footer-brand">
+            <img src="img/IMG_7396.PNG" alt="Hubby Catering" class="footer-logo">
+            <span>Hubby Catering</span>
+        </div>
+
+        <nav class="footer-nav" aria-label="Patička navigace">
+            <a href="#o-nas">O nás</a>
+            <a href="#sluzby">Služby</a>
+            <a href="#galerie">Galerie</a>
+            <a href="#kontakt">Kontakt</a>
+        </nav>
+
+        <div class="footer-social">
+            <a href="https://www.instagram.com/hubby_catering?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                </svg>
+            </a>
+        </div>
+
+        <p class="footer-copy">© <span id="year"></span> Hubby Catering. Všechna práva vyhrazena.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
